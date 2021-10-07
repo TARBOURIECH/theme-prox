@@ -13,7 +13,7 @@ CHECKMARK='\033[0;32m\xE2\x9C\x94\033[0m'
 TEMPLATE_FILE="/usr/share/pve-manager/index.html.tpl"
 SCRIPTPATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/$(basename "${BASH_SOURCE[0]}")"
 
-REPO=${REPO:-"Weilbyte/PVEDiscordDark"}
+REPO=${REPO:-"TARBOURIECH/theme-prox"}
 DEFAULT_TAG="master"
 TAG=${TAG:-$DEFAULT_TAG}
 BASE_URL="https://raw.githubusercontent.com/$REPO/$TAG"
@@ -98,7 +98,7 @@ function usage {
         echo -e "  0                    OK"
         echo -e "  1                    Failure"
         echo -e "  2                    Already installed, OR not installed (when using install/uninstall commands)\n"
-        echo -e "Report issues at: <https://github.com/Weilbyte/PVEDiscordDark/issues>"
+        echo -e "Report issues at: <https://github.com/TARBOURIECH/theme-prox/issues>"
     fi
 }
 
