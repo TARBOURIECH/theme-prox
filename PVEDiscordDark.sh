@@ -1,5 +1,5 @@
 #!/bin/bash
-# https://github.com/Weilbyte/PVEDiscordDark
+# https://github.com/TARBOURIECH/theme-prox
 
 #region Consts
 RED='\033[0;31m'
@@ -64,7 +64,7 @@ function checkSupported {
         local SUPPORTEDARR=($(echo "$SUPPORTED" | tr ',' '\n'))
         if ! (printf '%s\n' "${SUPPORTEDARR[@]}" | grep -q -P "$PVEVersionMajor"); then
             echo -e "${WARN}You might encounter issues because your version ($PVEVersionMajor) is not matching currently supported versions ($SUPPORTED)."
-            echo -e "If you do run into any issues on >newer< versions, please consider opening an issue at https://github.com/Weilbyte/PVEDiscordDark/issues.${REG}"
+            echo -e "If you do run into any issues on >newer< versions, please consider opening an issue at https://github.com/TARBOURIECH/theme-prox/issues.${REG}"
         fi
     fi
 }
