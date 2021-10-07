@@ -6,7 +6,9 @@
     font-family: 'helvetica', 'arial', 'verdana', 'sans-serif';
     background: #fff
 }
-
+#panel-1017-body {
+    height: 50px !important;
+}
 .x-form-text-default {
     color: #818082;
     background-color: #4A4D53;
@@ -61,7 +63,7 @@
 
 .x-grid-cell-inner {
     background: transparent;
-    color: #333
+    color: #fff
     font-weight: bold;
 }
 
@@ -73,11 +75,13 @@
 .x-grid-item {
     background: #555555;
     border-width: 0 !important
+    color:#eeeeee
 }
 
 .x-grid-item:hover,
 .x-grid-item.x-grid-item-selected {
     background-color: #cccccc
+        color:#000000
 }
 
 .x-grid-item-alt {
@@ -86,7 +90,7 @@
 }
 
 .x-grid-header-ct {
-    background: #2C2F33;
+    background: #666666;
     border-width: 0 !important
 }
 
@@ -274,7 +278,7 @@
 
 .x-panel-body-default {
     background: #555555;
-    color: #333333;
+    color: #eeeeee;
     font-size: 13px;
     font-weight: 300;
     font-family: 'helvetica', 'arial', 'verdana', 'sans-serif';
