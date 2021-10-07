@@ -71,7 +71,7 @@
 }
 
 .x-grid-item {
-    background: #ffffff;
+    background: #555555;
     border-width: 0 !important
 }
 
@@ -273,7 +273,7 @@
 }
 
 .x-panel-body-default {
-    background: #ffffff;
+    background: #555555;
     color: #333333;
     font-size: 13px;
     font-weight: 300;
