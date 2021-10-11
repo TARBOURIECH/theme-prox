@@ -6,6 +6,9 @@
     font-family: 'helvetica', 'arial', 'verdana', 'sans-serif';
     background: #fff
 }
+[id^="versioninfo"]:after {
+    content:"NOM A MODIFIER";
+}
 #panel-1017-body {
     height: 50px !important;
 }
@@ -924,9 +927,17 @@ div[id^="pveNotesView-"][id$="-innerCt"] {
     background: #23272a
 }
 
+
 [id^="versioninfo"] {
-    background: #23272a
+    background: #23272a;
+    right: auto;
+    left: 516px !important;
+    margin: 0px;
+    top: 7px;
+    height: 17px;
+    width: 350px !important;
 }
+
 
 [id^="proxmoxGauge"] {
     background: #23272a
